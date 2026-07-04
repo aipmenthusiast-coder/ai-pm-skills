@@ -26,7 +26,7 @@ There are three common ways to use the skill:
 - Reusable agent instruction: add the full skill file to an agent, custom assistant, or project instruction set.
 - Team-specific skill: copy the skill, add company context, connect relevant knowledge sources, and revise the outputs to match your team's standards.
 
-For best results, do not rely on the generic skill alone. Product discovery is highly contextual. The agent will be much more useful when it can also use firm-specific context and supporting skill files that provide additional intelligence about your company, customers, market, products, and decision process.
+For best results, do not rely on the generic skill alone. Product discovery is highly contextual. The agent will be much more useful when it can also use relevant context and supporting skill files that provide additional intelligence about your company, customers, market, products, and decision process.
 
 Helpful supporting context files might include:
 
@@ -161,9 +161,9 @@ Start by adding:
 
 Replace generic examples with examples from your own product area.
 
-## How To Enhance This With A Firm-Specific Agent
+## How To Enhance This With A Relevant Context Agent
 
-To make the skill more powerful, turn it into an agent that can use company-specific context. The agent should not just answer generic discovery questions. It should help your team discover opportunities in the way your company actually works.
+To make the skill more powerful, turn it into an agent that can use relevant context. The agent should not just answer generic discovery questions. It should help your team discover opportunities in the way your company actually works.
 
 ### 1. Add Company Knowledge
 
@@ -247,7 +247,7 @@ Add instructions such as:
 - Identify when a discovery question needs direct customer research rather than desk research.
 - Identify when the product manager is prematurely solutioning.
 
-### 6. Create A Firm-Specific Agent Starter Prompt
+### 6. Create A Relevant Context Agent Starter Prompt
 
 Use this starter prompt when configuring the agent:
 
@@ -287,7 +287,7 @@ Before asking product managers to use this skill, complete this checklist:
 - Define approved data sources.
 - Define what the agent is not allowed to access or infer.
 - Add decision rules for roadmap, research, and leadership review.
-- Add firm-specific context files or supporting skill files where useful.
+- Add relevant context files or supporting skill files where useful.
 - Test the skill on a real but low-risk discovery question.
 - Compare the output against your team's standards.
 - Revise the skill based on what was missing, too generic, or too verbose.

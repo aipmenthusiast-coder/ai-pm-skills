@@ -107,7 +107,7 @@ Each base skill file is intentionally generic. That is by design — generic fil
 
 When you apply a skill to your own context:
 - Create a copy of the base file
-- Add your firm-specific context, terminology, and constraints in the bracketed sections
+- Add your relevant context, terminology, and constraints in the bracketed sections
 - Version your customized file separately
 - Keep the base file untouched for future updates
 
